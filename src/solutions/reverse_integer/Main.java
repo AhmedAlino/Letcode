@@ -1,5 +1,6 @@
 package solutions.reverse_integer;
 
+// The method below is my thought
 public class Main {
     public static void main(String[] args) {
 //        int number = 123;
