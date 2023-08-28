@@ -26,7 +26,7 @@ public class Main {
 
     private static int reversePositiveInt(int number) {
         String numberAsString = Integer.toString(number);
-        StringBuilder reverseNumberAsString = new StringBuilder("");
+        StringBuilder reverseNumberAsString = new StringBuilder();
 
         for (int i = numberAsString.length() - 1; i >= 0; i--)
             reverseNumberAsString.append(numberAsString.charAt(i));
